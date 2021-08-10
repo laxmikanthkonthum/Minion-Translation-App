@@ -1,7 +1,7 @@
 :root{
     --main-color : #F59E0B;
     font-family: cursive;
-    background-image: url("minion.png") ;
+    /*background-image: url("minion.png") ;*/
 }
 main{
     margin: auto;
@@ -10,7 +10,7 @@ main{
 .inputbox{
     box-sizing: border-box;
     width: 600px;
-    height: 80px;
+    min-height: 20vh;
     display: block;
     padding: 0.5rem 0.5rem;
     border-color:black;
