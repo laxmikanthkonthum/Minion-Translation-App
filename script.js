@@ -7,7 +7,7 @@ function urlConstructor(text){
     return url + "?" + "text=" + text;
 }
 function toFetch(updatedURL){
-    console.log("inside fetch", updatedURL)
+   // console.log("inside fetch", updatedURL)
     fetch(updatedURL)
     .then(response => response.json())
    // .then(json => outputDisplay)
@@ -26,7 +26,7 @@ function toFetch(updatedURL){
 function clickFunction() {
     userInput = inputtext.value;
     modifiedInput = urlConstructor(userInput);
-    console.log("modified input", modifiedInput )
+    //console.log("modified input", modifiedInput )
     toFetch(modifiedInput);
 };
 

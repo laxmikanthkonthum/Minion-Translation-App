@@ -1,0 +1,2 @@
+# Minion Translation App
+I created this fun app using using Vanilla JS and for translation i used an API which helped me to understand on how to communicate with the server for sending and retrieving data
