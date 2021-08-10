@@ -1,7 +1,7 @@
 :root{
     --main-color : #F59E0B;
     font-family: cursive;
-    background-image: url("last.png") ;
+    background-image: url("minion.png") ;
 }
 main{
     margin: auto;
@@ -55,6 +55,6 @@ footer{
     margin-top: 5rem;
 }
 ::placeholder{
-    color: blueviolet;
+    color: black;
     font-family: cursive;
 }
