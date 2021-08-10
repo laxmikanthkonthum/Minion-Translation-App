@@ -16,6 +16,8 @@ function toFetch(updatedURL){
         outputtext.innerText = output;
      //.translate-output.innerText = output;
 })
+.catch(() => alert("some error occured"))
+
 }
 // function outputDisplay(){
 //     var output = json.contents.translated;
