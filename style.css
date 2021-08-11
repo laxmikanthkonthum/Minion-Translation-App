@@ -3,6 +3,9 @@
     font-family: cursive;
     background-image: url("minion.png") ;
 }
+body{
+    margin: 0;
+}
 main{
     margin: auto;
     max-width: 600px;
